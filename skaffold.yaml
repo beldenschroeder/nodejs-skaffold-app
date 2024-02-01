@@ -4,12 +4,14 @@ metadata:
   name: nodejs-express-test
 build:
   artifacts:
-  - image: lukondefmwila/express-test
+  # - image: lukondefmwila/express-test
+  - image: beldenschroeder/express-test
     docker:
       dockerfile: Dockerfile
 test:
   - context: .
-    image: lukondefmwila/express-test
+    # image: lukondefmwila/express-test
+    image: beldenschroeder/express-test
     custom:
       - command: npm run test
 deploy:

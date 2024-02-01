@@ -14,7 +14,8 @@ spec:
    spec:
      containers:
      - name: express-test
-       image: lukondefmwila/express-test
+       # image: lukondefmwila/express-test
+       image: beldenschroeder/express-test
        resources:
           limits:
             memory: 128Mi
