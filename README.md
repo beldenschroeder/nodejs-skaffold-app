@@ -1,4 +1,4 @@
-# Build & Deploy Node.js Application to Amazon EKS with Skaffold and GitHub Actions
+# Build & Deploy Node.js Application to Amazon EKS with Skaffold and GitHub Actions 
 
 ![Diagram of workflow](skaffold-and-github-actions.png)
 
